@@ -1,7 +1,7 @@
-#include <iostream>
 #include <QUdpSocket>
 #include <QThread>
 
+#include <iostream>
 #include <vector>
 #include <string>
 #include <sstream>
@@ -32,11 +32,11 @@ vector<string> split(string const & str, char separator){
 
 Player before_kick_off(Player const & player){
     Player p{player};
-    if(p.side == "r"){
+    if(p.side == "r"){ // right side
         if(p.number == "2") p.commandToSend = "(move 30 -25)";
         if(p.number == "3") p.commandToSend = "(move 30 25)";
     }
-    else {
+    else { // left side
         if(p.number == "2") p.commandToSend = "(move -30 -25)";
         if(p.number == "3") p.commandToSend = "(move -30 25)";
     }
