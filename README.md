@@ -31,6 +31,13 @@ Execute build commands
   sudo make install
 ```
 
+
+Run with the command
+```
+  rcssmonitor
+```
+
+
 ### rcssserver
 
 Get release and uncompress
@@ -54,3 +61,15 @@ Execute build commands
   sudo make insall
 ```
 
+Cobfigure library path
+
+```
+  sudo nano /etc/ld.so.conf.d/robocup.conf
+  //add one line  /usr/lobal/lib
+  //save and exit ctrl+o ctrl+x
+  sudo ldconfig
+```
+Run with the command
+```
+  rcssserver
+```
