@@ -73,3 +73,11 @@ Run with the command
 ```
   rcssserver
 ```
+
+## Run player
+
+With server and monitor running.
+
+ * Open file player.pro in Qt Creator.
+ * Build.
+ * Launch.
