@@ -5,7 +5,7 @@
 Install dependencies
 
 ```
- sudo apt install build-essential libboost-all-dev qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev flex bison git 
+ sudo apt install build-essential libboost-all-dev qtbase5-dev libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev flex bison git 
 ```
 
 ### rcssmonitor
