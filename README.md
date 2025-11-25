@@ -28,9 +28,11 @@ Execute build commands
   autoreconf -i
   ./configure
   make
-  sudo make install
+  sudo make install`
 ```
-
+```
+sudo ldconfig
+```  
 
 Run with the command
 ```
