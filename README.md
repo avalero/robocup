@@ -13,7 +13,7 @@ Install dependencies
 Clone the repository
 
 ```
-  git clone git@github.com:rcsoccersim/rcssmonitor.git
+  git clone https://github.com/rcsoccersim/rcssmonitor.git
 ```
 
 Go into de directory
