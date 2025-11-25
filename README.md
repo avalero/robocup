@@ -52,7 +52,7 @@ Get release and uncompress
 Go into the directory
 
 ```
-  cd cd rcssserver-16.0.1
+  cd rcssserver-16.0.1
 ```
 
 Execute build commands
