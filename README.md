@@ -45,7 +45,7 @@ Run with the command
 Get release and uncompress
 
 ```
-  wget https://github.com/rcsoccersim/rcssserver/releases/download/rcssserver-16.0.1/rcssserver-19.0.0.tar.gz
+  wget https://github.com/rcsoccersim/rcssserver/archive/refs/tags/rcssserver-19.0.0.tar.gz
   tar xvfz rcssserver-16.0.1.tar.gz 
 ``` 
 
